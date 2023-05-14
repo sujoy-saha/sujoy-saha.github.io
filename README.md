@@ -1,2 +1,1 @@
-# sujoy-saha.github.io
-Website for self
+# Sujoy's GitHub Page
