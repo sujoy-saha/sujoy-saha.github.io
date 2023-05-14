@@ -1,8 +1,13 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
 relative_links:
   enabled: true
   collections: true
+header_pages:
+  - index.html
 include:
   - CONTRIBUTING.md
   - README.md
