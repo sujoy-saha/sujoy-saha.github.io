@@ -1,21 +1,15 @@
+remote_theme: sujoy-saha/Jekyll-Theme
+exclude:
+  - readme.md  
+header_pages:
+  - index.html
+author: Sujoy Kumar Saha
+github_username:  sujoy-saha
 plugins:
-  - jekyll-relative-links
   - jekyll-sitemap
   - jekyll-mentions
   - jemoji
-relative_links:
-  enabled: true
-  collections: true
-header_pages:
-  - index.html
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
-
-theme: jekyll-theme-tactile
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
